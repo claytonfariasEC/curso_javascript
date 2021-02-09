@@ -54,7 +54,16 @@ function criar_celular(marca, tela){
         }
     }
 }
+document.body.textContent = "wwwwwEita wwwwporra meu velho"
+ 
 
+function get_Name(){
+    document.body.textContent = "Eita porra meu velho"
+    //return ("embeebed in javascript my friendo");
+
+}
 
 const celular = criar_celular("Iphone", "5.5")
 console.log(celular)
+
+console.log(get_Name())
